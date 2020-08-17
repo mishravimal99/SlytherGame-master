@@ -72,7 +72,7 @@ while not done:
     #drawball(screen,ball_x,ball_y)
     drawrect(screen,rect_x,rect_y)
     #score board
-    font= pygame.font.SysFont('Times New Roman Bold	', 30, False, False)
+    font= pygame.font.SysFont('Times New Roman Bold	', 40, False, False)
     text = font.render("Score = " + str(score), True, RED)
     screen.blit(text,[600,100])
     pygame.display.flip()
