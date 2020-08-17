@@ -76,5 +76,5 @@ while not done:
     text = font.render("Score = " + str(score), True, RED)
     screen.blit(text,[600,100])
     pygame.display.flip()
-    clock.tick(60)
+    clock.tick(120)
 pygame.quit()
